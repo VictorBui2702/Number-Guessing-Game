@@ -1,7 +1,7 @@
-# CoderSchool FTW - * Name of Your Project Here *
+# CoderSchool FTW - * Name of Your Project Here * - Could not create a web link via Netlify?
 
 Created with love by: Victor
-  
+ 
 One or two sentence summary of your project. 
 
 ## Video Walkthrough
