@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guessing Number Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Guessing Number Game</h1>
+    <input type="text" id="textBox">
+    <button id='guessButton' type="button" class="btn btn-primary">Guess</button>
+    <button id='restartButton' type="button" class="btn btn-primary">Start Over</button>
+    <div id="tooLowAlert" class="alert alert-danger" role="alert" style="display: none">
+        It's too low!
+    </div>
+    <div id="tooHighAlert" class="alert alert-danger" role="alert" style="display: none">
+        It's too high!
+    </div>
+    <div id="correctAlert" class="alert alert-success" role="alert" style="display: none">
+        It's correct!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+        Guesses remaining are : <span id="guessesRemaining">10</span>
+    </div>
+    <div class="alert alert-warning" role="alert">
+        Previous guesses are:
+        <div id="previousGuesses"></div>
+    </div>
+
+    <script src="guessing-game.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
